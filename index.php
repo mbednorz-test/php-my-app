@@ -4,4 +4,4 @@ function getData() {
   return $_GET['name'];
 }
 
-echo "Name: ";
+echo "Name: " . getData();
