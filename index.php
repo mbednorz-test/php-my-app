@@ -1,7 +1,7 @@
 <?php
 
 function getData() {
-  return htmlentities($_GET['name']);
+  return $_GET['name'];
 }
 
 function simple() {
